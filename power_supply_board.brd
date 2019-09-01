@@ -180,8 +180,8 @@
 <rectangle x1="28" y1="54" x2="33" y2="59" layer="30"/>
 <rectangle x1="44.5" y1="54" x2="49.5" y2="59" layer="30"/>
 <rectangle x1="61" y1="54" x2="66" y2="59" layer="30"/>
-<rectangle x1="11.5" y1="32" x2="17.5" y2="40" layer="30" rot="R135"/>
-<rectangle x1="15" y1="36.75" x2="20" y2="49" layer="30"/>
+<rectangle x1="8.5" y1="40.5" x2="17" y2="47" layer="30"/>
+<rectangle x1="11.5" y1="47" x2="17" y2="49" layer="30"/>
 </plain>
 <libraries>
 <library name="rcl" urn="urn:adsk.eagle:library:334">
@@ -1433,7 +1433,6 @@ Source: http://www.ledtronics.com/ds/smd-0603/Dstr0092.pdf</description>
 <package name="CONN2_1744426-2">
 <pad name="1" x="2.4892" y="0" drill="0.9398" diameter="1.4478"/>
 <pad name="2" x="0" y="0" drill="0.9398" diameter="1.4478"/>
-<pad name="3" x="1.2446" y="6.5024" drill="2.794" diameter="2.794"/>
 <wire x1="-2.7432" y1="9.4488" x2="-2.7432" y2="-3.6576" width="0.1524" layer="39"/>
 <wire x1="-2.7432" y1="-3.6576" x2="5.2578" y2="-3.6576" width="0.1524" layer="39"/>
 <wire x1="5.2578" y1="-3.6576" x2="5.2578" y2="9.4488" width="0.1524" layer="39"/>
@@ -1461,6 +1460,7 @@ Source: http://www.ledtronics.com/ds/smd-0603/Dstr0092.pdf</description>
 <wire x1="6.1468" y1="0" x2="5.3848" y2="0" width="0.508" layer="22" curve="-180"/>
 <wire x1="5.3848" y1="0" x2="6.1468" y2="0" width="0.508" layer="22" curve="-180"/>
 <text x="-2.032" y="-0.635" size="1.27" layer="25" ratio="6" rot="SR0">&gt;Name</text>
+<hole x="1.2446" y="6.5024" drill="2.794"/>
 </package>
 </packages>
 </library>
@@ -1475,8 +1475,8 @@ Source: http://www.ledtronics.com/ds/smd-0603/Dstr0092.pdf</description>
 <wire x1="-10.5" y1="-8.1" x2="-10.5" y2="19.1" width="0.05" layer="39"/>
 <text x="-10.30341875" y="19.2047" size="1.270559375" layer="25">&gt;NAME</text>
 <text x="-10.31351875" y="-9.2177" size="1.2722" layer="27">&gt;VALUE</text>
-<pad name="1" x="-5.45" y="-2.25" drill="3.9" shape="square" thermals="no"/>
-<pad name="2" x="5.45" y="-2.25" drill="3.9" thermals="no"/>
+<pad name="1" x="-5.45" y="-2.25" drill="3.9" diameter="5.334" thermals="no"/>
+<pad name="2" x="5.45" y="-2.25" drill="3.9" diameter="5.334" shape="square" thermals="no"/>
 <pad name="S1" x="-9.45" y="7.15" drill="1.0668" diameter="1.27" shape="long" rot="R90"/>
 <pad name="S2" x="9.45" y="7.15" drill="1.0668" diameter="1.2" shape="long" rot="R90"/>
 <wire x1="-10.5" y1="19.1" x2="-10.5" y2="-8" width="0.127" layer="21"/>
@@ -1516,8 +1516,8 @@ Source: http://www.ledtronics.com/ds/smd-0603/Dstr0092.pdf</description>
 <wire x1="-8" y1="-8.1" x2="-8" y2="10.6" width="0.05" layer="39"/>
 <text x="-7.80341875" y="10.7047" size="1.270559375" layer="25">&gt;NAME</text>
 <text x="-7.81351875" y="-10.2177" size="1.2722" layer="27">&gt;VALUE</text>
-<pad name="1" x="-3.6" y="-6" drill="2.7" shape="square" thermals="no"/>
-<pad name="2" x="3.6" y="-6" drill="2.7" thermals="no"/>
+<pad name="1" x="-3.6" y="-6" drill="2.7" thermals="no"/>
+<pad name="2" x="3.6" y="-6" drill="2.7" shape="square" thermals="no"/>
 <pad name="S1" x="-6.75" y="0" drill="1" diameter="1.2" shape="long" rot="R90"/>
 <pad name="S2" x="6.75" y="0" drill="1" diameter="1.2" shape="long" rot="R90"/>
 </package>
@@ -1533,8 +1533,8 @@ Source: http://www.ledtronics.com/ds/smd-0603/Dstr0092.pdf</description>
 <wire x1="-8" y1="-8.1" x2="-8" y2="10.6" width="0.05" layer="39"/>
 <text x="-7.80341875" y="10.7047" size="1.270559375" layer="25">&gt;NAME</text>
 <text x="-7.81351875" y="-10.2177" size="1.2722" layer="27">&gt;VALUE</text>
-<pad name="1" x="-3.6" y="-6" drill="2.7" thermals="no"/>
-<pad name="2" x="3.6" y="-6" drill="2.7" shape="square" thermals="no"/>
+<pad name="1" x="-3.6" y="-6" drill="2.7" shape="square" thermals="no"/>
+<pad name="2" x="3.6" y="-6" drill="2.7" thermals="no"/>
 <pad name="S1" x="-6.75" y="0" drill="1" diameter="1.2" shape="long" rot="R90"/>
 <pad name="S2" x="6.75" y="0" drill="1" diameter="1.2" shape="long" rot="R90"/>
 <wire x1="-6.35" y1="2.54" x2="6.35" y2="2.54" width="0.127" layer="21"/>
@@ -1789,6 +1789,7 @@ design rules under a new name.</description>
 </element>
 <element name="LED1" library="led" library_urn="urn:adsk.eagle:library:259" package="SML0603" package3d_urn="urn:adsk.eagle:package:15832/1" value="" x="97.5" y="31" smashed="yes" rot="R180">
 <attribute name="NAME" x="96" y="31.5" size="1.27" layer="25"/>
+<attribute name="POPULARITY" value="17" x="97.5" y="31" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="98.5" y="33" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="R1" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="" x="94" y="31" smashed="yes">
@@ -1799,6 +1800,7 @@ design rules under a new name.</description>
 </element>
 <element name="LED2" library="led" library_urn="urn:adsk.eagle:library:259" package="SML0603" package3d_urn="urn:adsk.eagle:package:15832/1" value="" x="78.5" y="62.5" smashed="yes" rot="R270">
 <attribute name="NAME" x="76.5" y="64.5" size="1.27" layer="25" rot="R270"/>
+<attribute name="POPULARITY" value="17" x="78.5" y="62.5" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="76.5" y="63.5" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="R2" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="" x="78.5" y="59" smashed="yes" rot="R90">
@@ -1809,6 +1811,7 @@ design rules under a new name.</description>
 </element>
 <element name="LED3" library="led" library_urn="urn:adsk.eagle:library:259" package="SML0603" package3d_urn="urn:adsk.eagle:package:15832/1" value="" x="12" y="2.5" smashed="yes" rot="R90">
 <attribute name="NAME" x="14" y="1" size="1.27" layer="25" rot="R90"/>
+<attribute name="POPULARITY" value="17" x="12" y="2.5" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="14" y="1.5" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="R3" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="" x="12" y="6" smashed="yes" rot="R270">
@@ -1840,6 +1843,7 @@ design rules under a new name.</description>
 </element>
 <element name="LED4" library="led" library_urn="urn:adsk.eagle:library:259" package="SML0603" package3d_urn="urn:adsk.eagle:package:15832/1" value="" x="83" y="62.5" smashed="yes" rot="R270">
 <attribute name="NAME" x="81" y="64.5" size="1.27" layer="25" rot="R270"/>
+<attribute name="POPULARITY" value="17" x="83" y="62.5" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="81" y="63.5" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="R4" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="" x="83" y="59" smashed="yes" rot="R90">
@@ -1860,10 +1864,18 @@ design rules under a new name.</description>
 <element name="OUT4" library="XT60_Connecotr" package="AMASS_XT60PW_F" value="XT60PW-F" x="67" y="62.5" smashed="yes">
 <attribute name="NAME" x="68.69658125" y="52.2047" size="1.270559375" layer="25"/>
 </element>
-<element name="H4" library="holes" library_urn="urn:adsk.eagle:library:237" package="3,2" package3d_urn="urn:adsk.eagle:package:14275/1" value="MOUNT-HOLE3.2" x="95" y="5" smashed="yes"/>
-<element name="H2" library="holes" library_urn="urn:adsk.eagle:library:237" package="3,2" package3d_urn="urn:adsk.eagle:package:14275/1" value="MOUNT-HOLE3.2" x="95" y="60" smashed="yes"/>
-<element name="H3" library="holes" library_urn="urn:adsk.eagle:library:237" package="3,2" package3d_urn="urn:adsk.eagle:package:14275/1" value="MOUNT-HOLE3.2" x="5" y="5" smashed="yes"/>
-<element name="H1" library="holes" library_urn="urn:adsk.eagle:library:237" package="3,2" package3d_urn="urn:adsk.eagle:package:14275/1" value="MOUNT-HOLE3.2" x="5" y="60" smashed="yes"/>
+<element name="H4" library="holes" library_urn="urn:adsk.eagle:library:237" package="3,2" package3d_urn="urn:adsk.eagle:package:14275/1" value="MOUNT-HOLE3.2" x="95" y="5" smashed="yes">
+<attribute name="POPULARITY" value="7" x="95" y="5" size="1.778" layer="27" display="off"/>
+</element>
+<element name="H2" library="holes" library_urn="urn:adsk.eagle:library:237" package="3,2" package3d_urn="urn:adsk.eagle:package:14275/1" value="MOUNT-HOLE3.2" x="95" y="60" smashed="yes">
+<attribute name="POPULARITY" value="7" x="95" y="60" size="1.778" layer="27" display="off"/>
+</element>
+<element name="H3" library="holes" library_urn="urn:adsk.eagle:library:237" package="3,2" package3d_urn="urn:adsk.eagle:package:14275/1" value="MOUNT-HOLE3.2" x="5" y="5" smashed="yes">
+<attribute name="POPULARITY" value="7" x="5" y="5" size="1.778" layer="27" display="off"/>
+</element>
+<element name="H1" library="holes" library_urn="urn:adsk.eagle:library:237" package="3,2" package3d_urn="urn:adsk.eagle:package:14275/1" value="MOUNT-HOLE3.2" x="5" y="60" smashed="yes">
+<attribute name="POPULARITY" value="7" x="5" y="60" size="1.778" layer="27" display="off"/>
+</element>
 <element name="J6" library="EP2.5" package="CONN2_1744426-2" value="1744426-2" x="90.5" y="39.5" smashed="yes" rot="R270">
 <attribute name="MANUFACTURER_PART_NUMBER" value="17444262" x="90.5" y="39.5" size="1.27" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="85.365" y="41.532" size="1.27" layer="25" ratio="6" rot="SR270"/>
@@ -1896,7 +1908,7 @@ design rules under a new name.</description>
 </elements>
 <signals>
 <signal name="DGND">
-<contactref element="POWER1" pad="1"/>
+<contactref element="POWER1" pad="2"/>
 <contactref element="POWER2" pad="2"/>
 <contactref element="PS1" pad="3"/>
 <contactref element="PS1" pad="2"/>
@@ -1906,10 +1918,10 @@ design rules under a new name.</description>
 <contactref element="C3" pad="-"/>
 <contactref element="LED2" pad="C"/>
 <contactref element="LED3" pad="C"/>
-<contactref element="OUT2" pad="2"/>
-<contactref element="OUT4" pad="2"/>
-<contactref element="OUT3" pad="2"/>
-<contactref element="OUT1" pad="2"/>
+<contactref element="OUT2" pad="1"/>
+<contactref element="OUT4" pad="1"/>
+<contactref element="OUT3" pad="1"/>
+<contactref element="OUT1" pad="1"/>
 <polygon width="0.254" layer="1">
 <vertex x="0" y="0"/>
 <vertex x="47.5" y="0"/>
@@ -1931,7 +1943,6 @@ design rules under a new name.</description>
 <vertex x="4" y="10.5"/>
 <vertex x="4" y="28"/>
 <vertex x="5" y="29"/>
-<vertex x="5" y="54.525640625"/>
 <vertex x="11.974359375" y="61.5"/>
 <vertex x="75" y="61.5"/>
 <vertex x="75" y="60.5"/>
@@ -2008,56 +2019,6 @@ design rules under a new name.</description>
 <via x="40" y="1.5" extent="1-16" drill="0.35"/>
 <via x="42.5" y="1.5" extent="1-16" drill="0.35"/>
 <via x="45" y="1.5" extent="1-16" drill="0.35"/>
-<via x="16.5" y="3.5" extent="1-16" drill="0.35"/>
-<via x="13.5" y="3.5" extent="1-16" drill="0.35"/>
-<via x="13.5" y="1" extent="1-16" drill="0.35"/>
-<via x="16.5" y="1" extent="1-16" drill="0.35"/>
-<via x="9.5" y="4" extent="1-16" drill="0.35"/>
-<via x="9.5" y="1" extent="1-16" drill="0.35"/>
-<via x="4" y="9.5" extent="1-16" drill="0.35"/>
-<via x="1" y="9.5" extent="1-16" drill="0.35"/>
-<via x="1" y="14" extent="1-16" drill="0.35"/>
-<via x="3.5" y="14" extent="1-16" drill="0.35"/>
-<via x="1" y="25" extent="1-16" drill="0.35"/>
-<via x="3.5" y="25" extent="1-16" drill="0.35"/>
-<via x="1" y="30.5" extent="1-16" drill="0.35"/>
-<via x="4.5" y="30.5" extent="1-16" drill="0.35"/>
-<via x="4.5" y="37.5" extent="1-16" drill="0.35"/>
-<via x="1" y="37.5" extent="1-16" drill="0.35"/>
-<via x="1" y="46.5" extent="1-16" drill="0.35"/>
-<via x="4.5" y="46.5" extent="1-16" drill="0.35"/>
-<via x="4.5" y="49.5" extent="1-16" drill="0.35"/>
-<via x="1" y="49.5" extent="1-16" drill="0.35"/>
-<via x="10" y="60.5" extent="1-16" drill="0.35"/>
-<via x="9.5" y="64" extent="1-16" drill="0.35"/>
-<via x="17.5" y="64" extent="1-16" drill="0.35"/>
-<via x="17.5" y="62" extent="1-16" drill="0.35"/>
-<via x="23" y="62" extent="1-16" drill="0.35"/>
-<via x="23" y="64" extent="1-16" drill="0.35"/>
-<via x="28.5" y="64" extent="1-16" drill="0.35"/>
-<via x="28.5" y="62" extent="1-16" drill="0.35"/>
-<via x="34" y="64" extent="1-16" drill="0.35"/>
-<via x="34" y="62" extent="1-16" drill="0.35"/>
-<via x="39.5" y="62" extent="1-16" drill="0.35"/>
-<via x="39.5" y="64" extent="1-16" drill="0.35"/>
-<via x="45" y="64" extent="1-16" drill="0.35"/>
-<via x="45" y="62" extent="1-16" drill="0.35"/>
-<via x="50.5" y="62" extent="1-16" drill="0.35"/>
-<via x="50.5" y="64" extent="1-16" drill="0.35"/>
-<via x="56" y="62" extent="1-16" drill="0.35"/>
-<via x="56" y="64" extent="1-16" drill="0.35"/>
-<via x="61.5" y="64" extent="1-16" drill="0.35"/>
-<via x="61.5" y="62" extent="1-16" drill="0.35"/>
-<via x="67" y="62" extent="1-16" drill="0.35"/>
-<via x="67" y="64" extent="1-16" drill="0.35"/>
-<via x="72.5" y="64" extent="1-16" drill="0.35"/>
-<via x="72.5" y="62" extent="1-16" drill="0.35"/>
-<via x="75.5" y="61" extent="1-16" drill="0.35"/>
-<via x="75.5" y="64" extent="1-16" drill="0.35"/>
-<via x="1" y="17.5" extent="1-16" drill="0.35"/>
-<via x="1" y="22" extent="1-16" drill="0.35"/>
-<via x="3.5" y="22" extent="1-16" drill="0.35"/>
-<via x="3.5" y="17.5" extent="1-16" drill="0.35"/>
 <polygon width="0.254" layer="16">
 <vertex x="19" y="29"/>
 <vertex x="19" y="32.5"/>
@@ -2106,48 +2067,31 @@ design rules under a new name.</description>
 <via x="27.5" y="40" extent="1-16" drill="0.35"/>
 <via x="27.5" y="37.5" extent="1-16" drill="0.35"/>
 <via x="25" y="37.5" extent="1-16" drill="0.35"/>
-<polygon width="0.254" layer="16" thermals="no">
-<vertex x="17" y="0"/>
-<vertex x="17" y="4.5"/>
-<vertex x="11.5" y="4.5"/>
-<vertex x="4" y="12"/>
-<vertex x="4" y="28"/>
-<vertex x="5" y="29"/>
-<vertex x="5" y="54"/>
-<vertex x="12" y="61"/>
-<vertex x="75" y="61"/>
-<vertex x="75" y="60"/>
-<vertex x="80.5" y="60"/>
-<vertex x="80.5" y="65"/>
-<vertex x="0" y="65"/>
-<vertex x="0" y="0"/>
-</polygon>
 </signal>
 <signal name="POWER_BATT">
 <contactref element="POWER2" pad="1"/>
 <contactref element="R2" pad="1"/>
 <contactref element="C3" pad="+"/>
 <contactref element="PS2" pad="1"/>
-<contactref element="OUT2" pad="1"/>
-<contactref element="OUT4" pad="1"/>
-<contactref element="OUT1" pad="1"/>
-<contactref element="OUT3" pad="1"/>
+<contactref element="OUT2" pad="2"/>
+<contactref element="OUT4" pad="2"/>
+<contactref element="OUT1" pad="2"/>
+<contactref element="OUT3" pad="2"/>
 <wire x1="30.64" y1="31.88" x2="23.136" y2="31.88" width="0.6096" layer="1"/>
 <wire x1="23.136" y1="31.88" x2="22.5" y2="32.516" width="0.6096" layer="1"/>
 <wire x1="11.75" y1="33.05" x2="21.966" y2="33.05" width="0.6096" layer="1"/>
 <wire x1="21.966" y1="33.05" x2="22.5" y2="32.516" width="0.6096" layer="1"/>
 <polygon width="0.254" layer="16" thermals="no">
-<vertex x="12.5" y="60"/>
-<vertex x="6.5" y="54"/>
-<vertex x="6.5" y="29"/>
-<vertex x="17.5" y="29"/>
+<vertex x="75" y="65"/>
+<vertex x="0" y="65"/>
+<vertex x="0" y="28"/>
+<vertex x="17.5" y="28"/>
 <vertex x="17.5" y="32.5"/>
 <vertex x="28" y="43"/>
 <vertex x="75" y="43"/>
 <vertex x="80.5" y="48.5"/>
 <vertex x="80.5" y="59"/>
-<vertex x="74" y="59"/>
-<vertex x="74" y="60"/>
+<vertex x="75" y="59"/>
 </polygon>
 <via x="78" y="58" extent="1-16" drill="0.35"/>
 <via x="79" y="58" extent="1-16" drill="0.35"/>
@@ -2157,23 +2101,23 @@ design rules under a new name.</description>
 <wire x1="78.85" y1="58.15" x2="79" y2="58" width="0.254" layer="1"/>
 </signal>
 <signal name="LOGIC_BATT">
-<contactref element="POWER1" pad="2"/>
+<contactref element="POWER1" pad="1"/>
 <contactref element="R3" pad="1"/>
 <contactref element="C1" pad="+"/>
 <contactref element="PS1" pad="1"/>
 <polygon width="0.254" layer="16" thermals="no">
-<vertex x="11.5" y="6"/>
+<vertex x="11" y="6"/>
 <vertex x="18.5" y="6"/>
 <vertex x="18.5" y="0"/>
 <vertex x="30" y="0"/>
 <vertex x="30" y="27.5"/>
-<vertex x="5.5" y="27.5"/>
-<vertex x="5.5" y="12"/>
+<vertex x="0" y="27.5"/>
+<vertex x="0" y="10.5"/>
+<vertex x="0.5" y="10"/>
+<vertex x="7" y="10"/>
 </polygon>
 <via x="12" y="6.85" extent="1-16" drill="0.35"/>
-<wire x1="12" y1="6.85" x2="12" y2="7.5" width="0.254" layer="16"/>
-<wire x1="12" y1="7.5" x2="13" y2="8.5" width="0.254" layer="16"/>
-<wire x1="13" y1="8.5" x2="13.25" y2="8.25" width="0.254" layer="16"/>
+<wire x1="12" y1="6.85" x2="12" y2="7" width="0.1524" layer="16"/>
 </signal>
 <signal name="GNDIO">
 <contactref element="PS1" pad="5"/>
